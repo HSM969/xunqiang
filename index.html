@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+  <meta name="theme-color" content="#061617">
+  <title>循腔 · 阿宫腔节奏游戏</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main id="app" aria-label="循腔游戏">
+    <div id="stage">
+      <img id="background" alt="游戏界面">
+      <canvas id="playfield"></canvas>
+      <div id="ui"></div>
+      <div id="rotate"><strong>请横屏游玩</strong><span>转动手机后，点击区域会自动放大</span></div>
+    </div>
+  </main>
+  <audio id="music" preload="auto" src="assets/bgm.mp3"></audio>
+  <script src="config.js"></script>
+  <script src="game.js"></script>
+</body>
+</html>
